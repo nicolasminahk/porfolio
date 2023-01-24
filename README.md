@@ -1,3 +1,3 @@
 # Portfolio Nicolas Minahk Dev
 
-This project was bootstrapped with Nicolas Minahk
+Este proyecto fue desarrollado por Nicolas Minahk
