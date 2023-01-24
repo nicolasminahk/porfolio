@@ -1,5 +1,6 @@
 .App {
     text-align: center;
+    justify-content: center;
 }
 
 .App-logo {
@@ -10,7 +11,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
-        animation: App-logo-spin infinite 20s linear;
+        animation: App-logo-spin infinite 40s linear;
     }
 }
 
@@ -36,4 +37,22 @@
     to {
         transform: rotate(360deg);
     }
+}
+
+.companies {
+    height: 400px;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 128px;
+}
+
+.companies__item {
+    position: absolute;
+}
+
+.companies__item--hidden {
+    opacity: 0;
 }
