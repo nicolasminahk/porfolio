@@ -37,7 +37,7 @@ const Home = () => {
                     <Typography variant="caption" fontSize={'15px'}>
                         El mundo de la comunicación y sus tecnologías me atrapó desde mi niñez.
                         <br></br>
-                        Soy desarrollador y realizador Audiovisual
+                        Soy desarrollador y realizador Audiovisual.
                     </Typography>
                 </Box>
                 <Typography>Click aquí por:</Typography>
