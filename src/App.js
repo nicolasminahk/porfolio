@@ -5,6 +5,7 @@ import Curriculum from './components/Curriculum'
 import Home from './components/Home'
 
 function App() {
+    console.log('Deploy')
     return (
         <Fragment>
             <Routes>
