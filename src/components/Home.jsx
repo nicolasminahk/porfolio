@@ -41,7 +41,7 @@ const Home = () => {
                     </Typography>
                 </Box>
                 <Typography>Click aquí por:</Typography>
-                <Button onClick={() => navigate('/cv')} size="large">
+                <Button onClick={() => navigate('/cv')} size="large" style={{ color: 'whitesmoke' }}>
                     PROYECTOS
                 </Button>
                 <Box display="flex" flexDirection={'row'}>
