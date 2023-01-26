@@ -6,12 +6,12 @@ const Curriculum = () => {
     return (
         <div className="App">
             <header className="App-header">
-                <Box width="100%" height={'100%'} padding={10}>
-                    <Box display={'flex'} justifyContent="center" color={'black'}>
+                <Box width="100%" height={'100%'}>
+                    {/* <Box display={'flex'} justifyContent="center" color={'black'}>
                         <Typography variant="h2" color={'white'}>
                             Nicolas Minahk
                         </Typography>
-                    </Box>
+                    </Box> */}
                     <Box sx={{ borderColor: 'gray', padding: 10 }}>
                         <Typography variant="h3" padding={5}>
                             {' '}
