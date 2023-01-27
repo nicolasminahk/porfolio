@@ -1,8 +1,8 @@
 import { Fragment } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
-import Curriculum from './components/Curriculum'
-import Home from './components/Home'
+import Curriculum from './Curriculum'
+import Home from './Home'
 
 function App() {
     return (

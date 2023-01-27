@@ -3,8 +3,8 @@ import { Button, Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
-import azul from '../azul.jpg'
-import { Companies } from '../companies'
+import azul from './azul.jpg'
+import { Companies } from './companies'
 import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
