@@ -8,6 +8,7 @@ import { Companies } from './companies'
 import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
+    console.log('deploy')
     const navigate = useNavigate()
     const companies = [
         {
