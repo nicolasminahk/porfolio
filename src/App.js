@@ -9,7 +9,6 @@ import azul from './azul.jpg'
 import { Companies } from './companies'
 
 function App() {
-    // const navigate = useNavigate()
     const companies = [
         {
             title: 'React',
