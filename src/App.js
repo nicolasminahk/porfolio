@@ -1,3 +1,4 @@
+import { Typography } from '@mui/material'
 import { Fragment } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
@@ -7,10 +8,13 @@ import Home from './Home'
 function App() {
     return (
         <Fragment>
-            <Routes>
+            {/* <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/cv" element={<Curriculum />} />
-            </Routes>
+            </Routes> */}
+            <div>
+                <Typography>Hola</Typography>
+            </div>
         </Fragment>
     )
 }

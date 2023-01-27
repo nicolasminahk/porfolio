@@ -14,9 +14,9 @@ import App from './App'
 // )
 ReactDOM.render(
     <React.StrictMode>
-        <BrowserRouter basename={process.env.DEPLOY_URL}>
-            <App />
-        </BrowserRouter>
+        {/* <BrowserRouter basename={process.env.DEPLOY_URL}> */}
+        <App />
+        {/* </BrowserRouter> */}
     </React.StrictMode>,
     document.getElementById('root')
 )
