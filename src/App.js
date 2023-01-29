@@ -42,7 +42,7 @@ function App() {
                             Soy desarrollador y realizador Audiovisual.
                         </Typography>
                     </Box>
-                    <Typography>Contacto:</Typography>
+                    <Typography>Redes:</Typography>
                     <Box display="flex" flexDirection={'row'}>
                         <a style={{ color: 'white', marginRight: '15px' }} href="https://github.com/nicolasminahk">
                             <GitHubIcon color="white" fontSize="large" />
