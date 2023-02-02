@@ -14,13 +14,15 @@ const Curriculum = () => {
                         </Typography>
                         <Box display={'flex'} justifyContent="center" padding={5} alignContent="center">
                             <Typography color={'Highlight'}> RMDB Primer proyecto Full Stack Individual</Typography>
-                            <Typography variant="subtitle2">
+                            <Typography>
                                 <br></br>
                                 Tecnologías: JavaScript | MongoDb | Mongoose | React Js | Material UI | Express.js |
                                 Axios.
                                 <br></br>
                                 Página de Películas utilizando Omdb Api, con barra de búsqueda, registro de Usuarios y
                                 favoritos.
+                                <br></br>
+                                <a href="https://github.com/nicolasminahk/rmdb">Link Repositorio</a>
                             </Typography>
                         </Box>
                     </Box>
@@ -35,6 +37,8 @@ const Curriculum = () => {
                             <br></br>
                             Tecnologías: TypeScript | Node.js | Express.js | React.js | React-Redux | MongoDB | Mongoose
                             | MaterialUI | Redux-Toolkit
+                            <br></br>
+                            <a href="https://github.com/agusminahk/primo-ecom">Link Repositorio</a>
                         </Typography>
                     </Box>
                     <Box display={'flex'} justifyContent="left" padding={10}>
