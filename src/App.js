@@ -3,10 +3,9 @@ import './App.css'
 import Curriculum from './Curriculum'
 import { Typography } from '@mui/material'
 import { Box } from '@mui/system'
-import GitHubIcon from '@mui/icons-material/GitHub'
-import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import azul from './azul.jpg'
 import { Companies } from './companies'
+import AppBar from './AppBar'
 
 function App() {
     const companies = [
@@ -30,6 +29,7 @@ function App() {
 
     return (
         <Fragment>
+            <AppBar />
             <div className="App">
                 <header className="App-header">
                     <img src={azul} className="App-logo" alt="logo" />
@@ -42,15 +42,15 @@ function App() {
                             Soy desarrollador y realizador Audiovisual.
                         </Typography>
                     </Box>
-                    <Typography>Redes:</Typography>
-                    <Box display="flex" flexDirection={'row'}>
+                    {/* <Typography>Redes:</Typography> */}
+                    {/* <Box display="flex" flexDirection={'row'}>
                         <a style={{ color: 'white', marginRight: '15px' }} href="https://github.com/nicolasminahk">
                             <GitHubIcon color="white" fontSize="large" />
                         </a>
                         <a style={{ color: 'white' }} href="https://www.linkedin.com/in/nicolas-minahk/">
                             <LinkedInIcon color="white" fontSize="large" />
                         </a>
-                    </Box>
+                    </Box> */}
                     <Box sx={{ marginTop: '50px', marginRight: '110px', paddingBottom: 10 }}>
                         <Companies companies={companies} />
                     </Box>
